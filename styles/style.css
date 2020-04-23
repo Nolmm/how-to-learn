@@ -8,13 +8,7 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */ 
   font-family: 'Helvetica Neue', Arial, sans-serif; 
 } 
- 
 
-* { 
-  margin: 0; 
-  padding: 0; 
- } 
- 
 .header { 
   height: 100vh; 
   min-height: 600px; 
@@ -47,10 +41,11 @@
     padding-left: 64px; 
     width: 730px; 
     line-height: 96px; 
-    align-items: center; 
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
     font-size: 102px;  
-    font-weight: bold; 
-    display: flex;
+    font-weight: bold;
     flex-wrap: wrap;
     position: relative;
   } 
@@ -102,7 +97,6 @@
 .two-columns { 
   width: 80%; 
   display: flex; 
-  align-items: flex-start;
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
@@ -113,7 +107,9 @@
   line-height: 1.2; 
   color: #2f80ed;
   font-size: 18px; 
-  font-weight: normal; 
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
 } 
  
 
@@ -121,7 +117,7 @@
   width: 80%; 
   min-width: 784px;
   flex-direction: column;
-  
+
 } 
  
 .two-columns__paragraf { 
@@ -129,12 +125,10 @@
   font-size: 24px; 
   font-weight: normal;
   flex-direction: column;
+  margin: 0;
+  padding-bottom: 30px;
 } 
  
-.two-columns__paragraf_int {
-  height: 30px;
-}
-
 .two-columns__span-accent { 
   font-weight: bold; 
   line-height: 34px; 
@@ -206,7 +200,8 @@ flex-direction: column
 .table__heading { 
   line-height: 1.15; 
   font-size: 24px; 
-  font-weight: bold; 
+  font-weight: bold;
+  margin: 0;
 } 
  
 .table__heading_theme_dark {
@@ -360,6 +355,7 @@ left: 0;
   font-size: 18px; 
   font-weight: bold; 
   margin-bottom: 20px; 
+  margin-top: 0;
 } 
  
 .footer__column-links { 
@@ -369,6 +365,7 @@ left: 0;
   display: flex; 
   flex-direction: column; 
   list-style: none;
+  margin-top: 0;
 } 
  
 .footer__column-link { 
@@ -385,15 +382,3 @@ left: 0;
   height: 16px; 
   margin-right: 5px; 
 } 
-
-.footer__social-icon_facebook {
-
-}
-
-.footer__social-icon_vk {
-
-}
-
-.footer__social-icon_instagram {
-
-}
