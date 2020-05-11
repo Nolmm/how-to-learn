@@ -1,8 +1,5 @@
 .cards__image {
   width: 160px;
   height: 160px;
-  display: flex;
-  align-items: center;
-  border-radius: 100px;
-  margin: auto;   
+  border-radius: 100px; 
 }
